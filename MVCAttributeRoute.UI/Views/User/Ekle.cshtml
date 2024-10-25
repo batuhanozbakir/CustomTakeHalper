@@ -1,0 +1,12 @@
+﻿@model User
+
+<form asp-controller="kullanici" method="post" asp-action="ekle">
+    <label for="name"> isim </label>
+    <input type="text" name="Name" asp-for="Name" />
+    <br />
+    <label for="email"> email</label>
+    <input type="email" name="Email" asp-for="Email" />
+    <br />
+    <button type="submit " asp-controller="Kullanici" asp-action="Ekle"> Ekle</button>
+
+</form>

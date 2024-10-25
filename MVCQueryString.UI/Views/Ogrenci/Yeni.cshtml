@@ -1,0 +1,10 @@
+﻿@model Ogrenci
+
+<form method="post" action="/ogrenci/ekle">
+    <label asp-for="Ad">Ad</label>
+    <input type="text" asp-for="Ad" />
+
+    <button type="submit">Ekle</button>
+</form>
+
+<a href="/ogrenci/liste">GeriDön</a>
